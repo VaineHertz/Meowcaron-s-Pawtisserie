@@ -1,7 +1,20 @@
-import React, {useEffect} from 'react';
-import './App.css';
+import React, { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout'
+import './App.scss';
 import catcher from './asset/catcher.png'
 import macaron from './asset/macaron.jpg'
+
+class catchGame extends React.Component {
+  constructor(props){
+    super(props)
+  }
+
+  render() {
+    return <><Macarons />
+    <Plate /></>
+  }
+}
 
 class Macarons extends React.Component {
   constructor(props){
@@ -71,10 +84,9 @@ class Plate extends React.Component {
 
 function App() {
   return (
-    <div className="App">
-      <Macarons />
-      <Plate />
-    </div>
+    <Routes>
+      <Route className="App" path="/" element={<catchGame />}></Route>
+    </Routes>
   );
 }
 

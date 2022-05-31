@@ -1,0 +1,21 @@
+$primary-color: wheat;
+
+@import 'animate.css';
+
+// @font-face {
+//   font-family: 'Helvetica Neue';
+//   src: url('./asset/fonts/helvetica-neu.ttf') format('ttf');
+// }
+
+#plate {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 10px;
+  color: wheat;
+  background-color: wheat;
+}
+
+.macaron {
+  position: absolute;
+}
