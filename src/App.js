@@ -5,7 +5,16 @@ import './App.scss';
 import catcher from './asset/catcher.png'
 import macaron from './asset/macaron.jpg'
 
-class catchGame extends React.Component {
+class Home extends React.Component {
+  constructor(props){
+    super(props)
+  }
+  render(){
+    return <><a href="./game"><button>Game</button></a></>
+  }
+}
+
+class CatchGame extends React.Component {
   constructor(props){
     super(props)
   }
@@ -85,7 +94,8 @@ class Plate extends React.Component {
 function App() {
   return (
     <Routes>
-      <Route className="App" path="/" element={<catchGame />}></Route>
+      <Route path="/game" element={<CatchGame />}></Route>
+      <Route path="/" element={<Home />}></Route>
     </Routes>
   );
 }
