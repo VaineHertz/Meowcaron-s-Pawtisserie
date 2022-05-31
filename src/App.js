@@ -94,8 +94,8 @@ class Plate extends React.Component {
 function App() {
   return (
     <Routes>
-      <Route path="/game" element={<CatchGame />}></Route>
-      <Route path="/" element={<Home />}></Route>
+      <Route path="/meowcaron-s-pawtisserie/game" element={<CatchGame />}></Route>
+      <Route path="/meowcaron-s-pawtisserie" element={<Home />}></Route>
     </Routes>
   );
 }
