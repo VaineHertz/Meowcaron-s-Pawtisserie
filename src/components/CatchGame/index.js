@@ -21,7 +21,7 @@ class CatchGame extends React.Component {
       super(props)
   
       this.state = {
-        y: 0
+        y: 150
       }
     }
     componentDidMount() {

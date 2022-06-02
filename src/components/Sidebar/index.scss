@@ -1,33 +1,40 @@
+$nav-height: 150px;
+
 .nav-bar {
     background: #cfe1c9;
-    width: 180px;
-    height: 100%;
+    width: 100%;
+    height: $nav-height;
     position: absolute;
     top: 0;
     z-index: 3;
-    min-height: 500px;
+    min-width: 500px;
 
     .logo {
-        width: 225px;
+        position: absolute;
+        height: $nav-height;
     }
     .macaron {
+        left: 20%;
         width: 100px;
-        padding: 40px;
+        padding: 20px;
     }
     .contact {
-        margin-top: 150px;
+        position: absolute;
+        left: 60%;
         width: 100px;
-        padding: 40px;
+        padding: 25px;
     }
     .gamepad{
+        position: absolute;
+        left: 35%;
         width: 140px;
-        padding: 20px;
+        padding: 40px;
     }
     .instagram {
         font-size: 33px;
         position: absolute;
-        bottom: 0px;
-        left: 0px;
+        top: 0%;
+        right: 0%;
         padding: 10px;
         color: #E1306C;
         background-color: #FFE6EE;
