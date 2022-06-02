@@ -10,7 +10,7 @@ class Home extends React.Component {
     super(props)
   }
   render(){
-    return <><a href="./game"><button>Game</button></a></>
+    return <><a href="./#/meowcaron-s-pawtisserie/game"><button>Game</button></a></>
   }
 }
 
@@ -20,7 +20,9 @@ class CatchGame extends React.Component {
   }
 
   render() {
-    return <><Macarons />
+    return <>
+    <a href="./#/meowcaron-s-pawtisserie/home"><button>Home</button></a>
+    <Macarons />
     <Plate /></>
   }
 }
@@ -95,7 +97,7 @@ function App() {
   return (
     <Routes>
       <Route path="/meowcaron-s-pawtisserie/game" element={<CatchGame />}></Route>
-      <Route path="/meowcaron-s-pawtisserie" element={<Home />}></Route>
+      <Route path="/meowcaron-s-pawtisserie/home" element={<Home />}></Route>
     </Routes>
   );
 }
