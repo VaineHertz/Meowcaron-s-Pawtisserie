@@ -1,11 +1,8 @@
-$primary-color: wheat;
-
 @import 'animate.css';
 
-// @font-face {
-//   font-family: 'Helvetica Neue';
-//   src: url('./asset/fonts/helvetica-neu.ttf') format('ttf');
-// }
+html {
+  background-color: #e7f0e4
+}
 
 #plate {
   display: flex;

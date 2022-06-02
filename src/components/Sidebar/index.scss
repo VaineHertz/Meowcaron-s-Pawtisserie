@@ -1,0 +1,35 @@
+.nav-bar {
+    background: #cfe1c9;
+    width: 180px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+
+    .logo {
+        width: 225px;
+    }
+    .macaron {
+        width: 100px;
+        padding: 40px;
+    }
+    .contact {
+        margin-top: 150px;
+        width: 100px;
+        padding: 40px;
+    }
+    .gamepad{
+        width: 140px;
+        padding: 20px;
+    }
+    .instagram {
+        font-size: 33px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 10px;
+        color: #E1306C;
+        background-color: #FFE6EE;
+    }
+}
