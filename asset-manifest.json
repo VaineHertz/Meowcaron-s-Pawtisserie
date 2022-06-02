@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/Meowcaron-s-Pawtisserie/static/css/main.3940be20.css",
-    "main.js": "/Meowcaron-s-Pawtisserie/static/js/main.7d131e2f.js",
+    "main.css": "/Meowcaron-s-Pawtisserie/static/css/main.99c055f5.css",
+    "main.js": "/Meowcaron-s-Pawtisserie/static/js/main.e4dfa90f.js",
     "static/js/787.bf7fe618.chunk.js": "/Meowcaron-s-Pawtisserie/static/js/787.bf7fe618.chunk.js",
+    "static/media/menu.png": "/Meowcaron-s-Pawtisserie/static/media/menu.c82d0cc866c4bc5a84a8.png",
+    "static/media/logo.png": "/Meowcaron-s-Pawtisserie/static/media/logo.ef8ebfddb4e7bc0d21ff.png",
+    "static/media/contact.png": "/Meowcaron-s-Pawtisserie/static/media/contact.c2fdc6d62489b7083f1e.png",
     "static/media/catcher.png": "/Meowcaron-s-Pawtisserie/static/media/catcher.ffc336093309018d864c.png",
+    "static/media/gamepad.png": "/Meowcaron-s-Pawtisserie/static/media/gamepad.5df30b932d16fb964c57.png",
+    "static/media/chef.png": "/Meowcaron-s-Pawtisserie/static/media/chef.19fa65a45abca1ddd084.png",
     "index.html": "/Meowcaron-s-Pawtisserie/index.html",
-    "main.3940be20.css.map": "/Meowcaron-s-Pawtisserie/static/css/main.3940be20.css.map",
-    "main.7d131e2f.js.map": "/Meowcaron-s-Pawtisserie/static/js/main.7d131e2f.js.map",
+    "main.99c055f5.css.map": "/Meowcaron-s-Pawtisserie/static/css/main.99c055f5.css.map",
+    "main.e4dfa90f.js.map": "/Meowcaron-s-Pawtisserie/static/js/main.e4dfa90f.js.map",
     "787.bf7fe618.chunk.js.map": "/Meowcaron-s-Pawtisserie/static/js/787.bf7fe618.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3940be20.css",
-    "static/js/main.7d131e2f.js"
+    "static/css/main.99c055f5.css",
+    "static/js/main.e4dfa90f.js"
   ]
 }
