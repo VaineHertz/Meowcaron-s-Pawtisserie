@@ -8,7 +8,6 @@ $nav-height: 150px;
     top: 0;
     z-index: 3;
     min-width: 500px;
-
     .logo {
         position: absolute;
         height: $nav-height;
@@ -38,5 +37,23 @@ $nav-height: 150px;
         padding: 10px;
         color: #E1306C;
         background-color: #FFE6EE;
+    }
+}
+@media only screen and (max-width: 600px){
+    .nav-bar{
+        height: 75px;
+        .logo{
+            position: absolute;
+            height: 75px;
+        }
+        .macaron{
+            padding: 10px;
+        }
+        .gamepad{
+            padding: 20px;
+        }
+        .contact{
+            padding: 17px;
+        }
     }
 }
