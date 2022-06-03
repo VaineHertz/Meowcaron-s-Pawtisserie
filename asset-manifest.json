@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Meowcaron-s-Pawtisserie/static/css/main.df232cee.css",
+    "main.css": "/Meowcaron-s-Pawtisserie/static/css/main.dd275afd.css",
     "main.js": "/Meowcaron-s-Pawtisserie/static/js/main.e7842964.js",
     "static/js/787.bf7fe618.chunk.js": "/Meowcaron-s-Pawtisserie/static/js/787.bf7fe618.chunk.js",
     "static/media/menu.png": "/Meowcaron-s-Pawtisserie/static/media/menu.c82d0cc866c4bc5a84a8.png",
@@ -10,12 +10,12 @@
     "static/media/gamepad.png": "/Meowcaron-s-Pawtisserie/static/media/gamepad.5df30b932d16fb964c57.png",
     "static/media/chef.png": "/Meowcaron-s-Pawtisserie/static/media/chef.19fa65a45abca1ddd084.png",
     "index.html": "/Meowcaron-s-Pawtisserie/index.html",
-    "main.df232cee.css.map": "/Meowcaron-s-Pawtisserie/static/css/main.df232cee.css.map",
+    "main.dd275afd.css.map": "/Meowcaron-s-Pawtisserie/static/css/main.dd275afd.css.map",
     "main.e7842964.js.map": "/Meowcaron-s-Pawtisserie/static/js/main.e7842964.js.map",
     "787.bf7fe618.chunk.js.map": "/Meowcaron-s-Pawtisserie/static/js/787.bf7fe618.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df232cee.css",
+    "static/css/main.dd275afd.css",
     "static/js/main.e7842964.js"
   ]
 }
