@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './index.scss'
 import Sidebar from '../Sidebar'
+import InstagramEmbed from 'react-instagram-embed'
 import chef from '../../asset/chef.png'
 
 class Layout extends React.Component {
@@ -11,9 +12,10 @@ class Layout extends React.Component {
       return <>
       <Sidebar />
       <div className='landing'>
-        <h2>Hello my name is Aly and I am a professional Macaronettear</h2>
-        <img src={chef}></img>
-        <h1>Please trust me with your macaron pastry needs!</h1>
+        <h1>
+        Hello my name is Aly and I am a professional Macaronettear
+        </h1><br/><br/>
+        Please trust me with your macaron pastry needs!
       </div>
       </>
     }

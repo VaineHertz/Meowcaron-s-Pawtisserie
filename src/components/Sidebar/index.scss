@@ -1,7 +1,12 @@
-$nav-height: 150px;
+$nav-height: 100px;
 
 .nav-bar {
-    background: #cfe1c9;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color:rgb(255, 233, 172);
+    border-width: 10px;
+    margin-left: -.5vw;
+    background: rgb(255, 254, 204);
     width: 100%;
     height: $nav-height;
     position: absolute;
