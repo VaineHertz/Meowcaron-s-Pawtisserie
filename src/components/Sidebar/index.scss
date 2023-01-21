@@ -1,18 +1,24 @@
 $nav-height: 100px;
 
 .nav-bar {
-    border-bottom-style: solid;
-    border-top-style: solid;
-    border-color:rgb(255, 233, 172);
-    border-width: 10px;
-    margin-left: -.5vw;
-    background: rgb(255, 254, 204);
-    width: 100%;
-    height: $nav-height;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-    min-width: 500px;
+    height: $nav-height/1.4;
+    background-color: #FFE6EE;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+
+    //make links look like normal text
+    a {
+        color: #000;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        &:hover {
+            color: #E1306C;
+        }
+    }
     .logo {
         position: absolute;
         height: $nav-height;
@@ -24,15 +30,15 @@ $nav-height: 100px;
     }
     .contact {
         position: absolute;
-        left: 60%;
+        left: 50%;
         width: 65px;
-        padding: 25px;
+        padding: 20px;
     }
     .gamepad{
         position: absolute;
         left: 35%;
         width: 90px;
-        padding: 40px;
+        padding: 20px;
     }
     .instagram {
         font-size: 33px;
@@ -44,6 +50,8 @@ $nav-height: 100px;
         background-color: #FFE6EE;
     }
 }
+
+
 @media only screen and (max-width: 600px){
     .nav-bar{
         height: 75px;
