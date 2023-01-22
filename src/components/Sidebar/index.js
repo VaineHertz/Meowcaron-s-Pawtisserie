@@ -18,9 +18,9 @@ const Sidebar = () => (
         <Link className='gamepad' to='/game'>
             Game
         </Link>
-        <a target='_blank' className='instagram' href='https://www.instagram.com/meowcarons.pawtisserie/?hl=en'>
+        {/* <a target='_blank' className='instagram' href='https://www.instagram.com/meowcarons.pawtisserie/?hl=en'>
             <FontAwesomeIcon icon={faInstagram} />
-        </a>
+        </a> */}
     </div>
 )
 

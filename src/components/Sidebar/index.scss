@@ -21,22 +21,28 @@ $nav-height: 100px;
     }
     .logo {
         position: absolute;
-        height: $nav-height;
+        height: $nav-height*2;
+    }
+    .home {
+        position: absolute;
+        margin-left: 20%;
+        width: 65px;
+        padding: 20px;
     }
     .macaron {
-        left: 20%;
+        left: 35%;
         width: 65px;
         padding: 20px;
     }
     .contact {
         position: absolute;
-        left: 50%;
+        left: 60%;
         width: 65px;
         padding: 20px;
     }
     .gamepad{
         position: absolute;
-        left: 35%;
+        left: 47%;
         width: 90px;
         padding: 20px;
     }
@@ -45,7 +51,7 @@ $nav-height: 100px;
         position: absolute;
         top: 0%;
         right: 0%;
-        padding: 10px;
+        padding: 15px;
         color: #E1306C;
         background-color: #FFE6EE;
     }
@@ -57,16 +63,7 @@ $nav-height: 100px;
         height: 75px;
         .logo{
             position: absolute;
-            height: 75px;
-        }
-        .macaron{
-            padding: 10px;
-        }
-        .gamepad{
-            padding: 20px;
-        }
-        .contact{
-            padding: 17px;
+            height: $nav-height*1.5;
         }
     }
 }
