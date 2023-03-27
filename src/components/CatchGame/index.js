@@ -42,12 +42,13 @@ class CatchGame extends React.Component {
     constructor(props){
       super(props)
   
+      this.handleKeyPressed = this.handleKeyPressed.bind(this);
+
       this.state = {
         x: window.innerWidth - window.innerWidth / 2,
         y: window.innerHeight - window.innerHeight / 4
       }
     }
-  
     componentDidMount() {
       const plate = document.getElementById('plate')
       window.addEventListener('resize', () => {
@@ -55,21 +56,39 @@ class CatchGame extends React.Component {
           return {y: window.innerHeight - window.innerHeight / 4}
         })
       })
-      window.addEventListener('keydown', e => {
-        console.log(`${e.code} pressed x: ${this.state.x}`)
-        if (e.code == 'ArrowLeft'){
-          this.setState((s, p) => {
-            return {x: s.x - 3}
-          })
-        }
-        if (e.code == 'ArrowRight'){
-          this.setState((s, p) => {
-            return {x: s.x + 3}
-          })
-        }
-      })
+
+      window.addEventListener('keypress', this.handleKeyPressed);
+
+
+      //window.addEventListener('keydown', e => {
+      //  console.log(`${e.code} pressed x: ${this.state.x}`)
+      //  if (e.code == 'ArrowLeft'){
+      //    this.setState((s, p) => {
+      //      return {x: s.x - 3}
+      //    })
+      //  }
+      //  if (e.code == 'ArrowRight'){
+      //    this.setState((s, p) => {
+      //      return {x: s.x + 3}
+      //    })
+      //  }
+      //})
     }
   
+    handleKeyPressed (e) {
+      console.log(e.key)
+      if (e.key == 'ArrowLeft'){
+        this.setState((s, p) => {
+          return {x: s.x - 3}
+        })
+      }
+      if (e.key == 'ArrowRight'){
+        this.setState((s, p) => {
+          return {x: s.x + 3}
+        })
+      }
+    }
+
     render(){
       let plateStyle = {top: this.state.y, left: this.state.x}
       let catchStyle = {marginTop: '20px', width: '100%', position: 'absolute'}
