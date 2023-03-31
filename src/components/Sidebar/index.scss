@@ -1,80 +1,64 @@
-$nav-height: 100px;
-
 .nav-bar {
-    height: $nav-height/1.4;
-    background-color: #FFE6EE;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    flex-direction: row;
-
-    //make links look like normal text
-    a {
-        color: #000;
-        text-decoration: none;
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        &:hover {
-            color: #E1306C;
-        }
-    }
-    .logo {
-        position: absolute;
-        height: $nav-height*2;
-    }
-    .macaron {
-        left: 35%;
-        width: 65px;
-        padding: 20px;
-    }
-    .contact {
-        position: absolute;
-        left: 60%;
-        width: 65px;
-        padding: 20px;
-    }
-    .gamepad{
-        position: absolute;
-        left: 47%;
-        width: 90px;
-        padding: 20px;
-    }
-    .instagram {
-        font-size: 33px;
-        position: absolute;
-        top: 0%;
-        right: 0%;
-        padding: 15px;
-        color: #E1306C;
-        background-color: #FFE6EE;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+.logo-link {
+  display: inline-block;
+}
 
-@media only screen and (max-width: 600px){
-    .nav-bar{
-        height: 75px;
-        .logo{
-            position: absolute;
-            height: $nav-height*1.5;
-        }
-    }
-    .macaron {
-        left: 50%;
-        width: 30px;
-        padding: 20px;
-    }
-    .contact {
-        position: absolute;
-        left: 60%;
-        width: px;
-        padding: 20px;
-    }
-    .gamepad{
-        position: absolute;
-        left: 47%;
-        width: 40px;
-        padding: 20px;
-    }
+.logo-image {
+  width: 30%;
+}
+
+.links-container {
+  margin-left: -300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.instagram-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.instagram-link:hover {
+  color: #000;
+}
+
+.instagram-link svg {
+  font-size: 2rem;
+  margin-right: 10px;
 }
